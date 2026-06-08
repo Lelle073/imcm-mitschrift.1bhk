@@ -49,3 +49,15 @@ Bits können über verschiedene Übertragungsmediean zwischen computern versende
 - jedes Gerät im Internet hat zumindest eine (eindeutige) IP- Adresse, viele Geräte haben aber eine externe IP (ähnlich wie die Hausnummer) und eine interne IP (ähnlich wie die Raumnummer)
 - Das Domain Name System (DNS) übersetzt menschenlesbare Domainnamem (zb.: www.google.com) in IP-Adressen
 - DNS-Server führen Tabellen mit Domainnamen und den entsprechenden IP-Adressen
+
+### Teil 8 - The internet: How Search Works
+
+- Suchmaschienen-Bots (Crawler) durchstreifen ständig das WWW und katalogisieren Websites. Der entstehende Katalog wird auc **Index** 
+genannt.
+- Wenn wir einen Suchbegriff bei Google (oder einer anderen *Search Engine*) eingeben, wird NICHT das WWW durchsucht, sondern lediglich der zuvor erstellte Index
+- Suchergebnisse werden auf Basis eines (geheimen) Algorithmus geranked - Ergebnisse die weiter oben stehen, werden öfter angeklickt
+- Einfluss auf das Ranking haben u.a.: 
+    - im Text vorkommende Suchbegriffe (*Keywords*)
+    - Links die auf meine Seite zeigen (*Backlinks*) 
+- die Suchergebnisse werden an die Benutzer*innen angepasst! D.h.: nicht jede/r sieht die gleichen Informationen, selbst wenn sie Indente Suchanfragen durchführen!
+- [Startpage] (//https://www.startpage.com/) ist eine datensparsame Suchmaschiene, die ihren Benutzern*innen die Verwenfung von Google ohne Tracking oder Personalisierung erlaubt
