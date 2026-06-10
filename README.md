@@ -65,6 +65,27 @@ Bits können über verschiedene Übertragungsmediean zwischen computern versende
 - das _Transmission Control Protocol_ (TPC) prüft am Ziel, ob alle Pakete einer Übertragung angekommen sind, Falls nPakete fehlen, fordert es diese erneut vom Absender an.
 - TCP und IP bilden gemeinsam das Rückgrat des Internets. Man spricht daher auch vom TCP/IP- Modell bzw. _TCP/IP-Stack_.
 
+### Teil 5 - The Internet: HTTP & HTML
+
+- HTTP steht für _Hypertext Transfer Protocol_. HTTP arbeitet nach dem Client-Server-Prinzip:
+
+  - ein Web-Client (browser) sendet eine Anfrage (_Request_) an einen Web-Server
+  - der Web-Server verarbeitet die Anfrage und sendet eine Antwort (_response_) zurück. Die Antwort enthält u.a. einen sogenannten [HTTP-Statuscode] (https://de.wikipedia.org/wiki/HTTP-Statuscode), der Auskunft über die Verarbeitung der Anfrage gibt.
+
+  #### HTTP-Statuscodes
+
+  **1xx** - die Anfrage dauert noch an
+  **2xx** - die Anfrage war erfolgreich
+  **3xx** - Um- oder Weiterleitung
+  **4xx** - Clientfehler (z.B. 404 - _Page not found_)
+  **5xx** - Serverfehler 💀
+
+- HTTP-Anfragen werden immer mit einer **HTTP-Methode** übertragen
+  -Daten (HTML-Seiten,Bilder, Videos,...) werden mit GET-Anfragen angefordert
+- Benutzereingaben (z.B aus Formularfelden - z.B. Passwort, Datei-Uploades,...) werden mit POST-Anfragen verschlüsselt versendet
+  -es gibt auch andere HTTP-Methoden. Diese lernen wir aber erst später.
+  -HTTP-Anfragen und Antworten können auch **Cookies** enthhalten. Cookies sind kleine Textdateien, die aus Schlüssel-Wert-Paaren (_key-value-pairs_) bestehen. Sie werden bei jeder Anfrage vom Client mitgesendet und ermöglichen so u.a. die Identifikation einzelner Nutzer.
+
 ### Teil 8 - The internet: How Search Works
 
 - Suchmaschienen-Bots (Crawler) durchstreifen ständig das WWW und katalogisieren Websites. Der entstehende Katalog wird auc **Index**
